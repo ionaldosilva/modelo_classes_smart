@@ -3,38 +3,39 @@ package play_music;
 
 public class Ipod{
 
-    private int play;
-    private int stop;
-    private int pause;
+    private boolean play;
+    private boolean stop;
+    private boolean pause;
 
     public Ipod() {
-        this.play = 0;
-        this.stop = 0;
-        this.pause = 0;
+        this.play = false;
+        this.stop = false;
+        this.pause = false;
     }
 
-    public int getPlay() {
+    public boolean isPlay() {
         return play;
     }
 
-    public int getStop() {
+    public boolean isStop() {
         return stop;
     }
 
-    public int getPause() {
+    public boolean isPause() {
         return pause;
     }
 
-    public void setPlay(int play) {
+    public void setPlay(boolean play) {
         this.play = play;
     }
 
-    public void setStop(int stop) {
+    public void setStop(boolean stop) {
         this.stop = stop;
     }
 
-    public void setPause(int pause) {
+    public void setPause(boolean pause) {
         this.pause = pause;
     }
-    
+
+  
 }
