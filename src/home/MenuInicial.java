@@ -49,7 +49,7 @@ public class MenuInicial {
                     case 3:
 
                     case 4:
-                        this.setApLigado(false);
+                        System.exit(0);
                         break;
                     default:
                         break;

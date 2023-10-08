@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Start {
     
     static boolean ligado = false;
+    
     public static void main(String[] args) {
         
         MenuInicial menu = new MenuInicial(ligado);

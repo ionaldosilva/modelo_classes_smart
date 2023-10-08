@@ -59,7 +59,7 @@ public class FuncIpod implements Home {
             ipod.setStop(true);
             ipod.setPlay(false);
             ipod.setPause(false);
-            System.out.print("PARANDO DE EXECUTAR MÚSICA");
+            System.out.println("PARANDO DE EXECUTAR MÚSICA");
         }
     }
     public void pauseMusic(){
