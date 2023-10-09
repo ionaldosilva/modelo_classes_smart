@@ -31,7 +31,7 @@ public class FuncIpod implements Home {
                     playMusic();                    
                     break;
                 case 2:
-                    stopMusic();
+                    selectMusic();
                     break;
                 case 3:
                     pauseMusic();
@@ -69,6 +69,11 @@ public class FuncIpod implements Home {
             ipod.setPause(true);
             System.out.println("PAUSANDO MÚSICA");
         }
+    }
+    public void selectMusic(){
+        ipod.setPlay(false);
+        ipod.setStop(true);
+        System.out.println("SELECONANDO A MÚSICA");
     }
     @Override
     public void BtHome() {

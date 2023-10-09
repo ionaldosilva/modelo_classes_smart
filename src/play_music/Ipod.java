@@ -1,16 +1,20 @@
 package play_music;
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class Ipod{
 
     private boolean play;
     private boolean stop;
     private boolean pause;
+    List<String> musicas;
 
     public Ipod() {
         this.play = false;
         this.stop = false;
         this.pause = false;
+        this.musicas = new ArrayList<>();
     }
 
     public boolean isPlay() {

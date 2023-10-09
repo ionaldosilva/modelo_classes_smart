@@ -45,16 +45,14 @@ public class MenuInicial {
                         FuncIpod.funcoesPlayer();
                         break;
                     case 2:
-
+                        FuncBrowser.funcoesBrowser();
                     case 3:
-
+                        FuncPhone.funcoesPhone();
                     case 4:
                         System.exit(0);
                         break;
                     default:
                         break;
-                    
-                
                 }
             }
         }   
